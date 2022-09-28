@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:crimson;
+    font-family: 'Kanit', sans-serif;
+    width: 434px;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main{
+    background-color: yellow;
+    width: 90vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: rgb(128, 40, 40);
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.hello{
+    font-size: 55px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: blue;
+    color: rgb(252, 252, 252);
+    margin: 0 3px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.btn-sm{
+    font-size: 10px;
+    margin: 10px 0;
+    padding: 7px 13px;
+}
+
+.btn:hover{
+    background-color: rgb(252, 252, 252);
+    color: blue;
+    cursor: pointer;
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactform h1{
+    font-family: 'Kanit', sans-serif;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    margin: 6px 0 0 0;
+    width: 26vw;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    margin: 0 5px;
+    color: midnightblue;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.eduItem{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    margin: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro h2{
+    margin: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro p{
+    margin: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skill{
+    width: 23px;
+    height: 23px;
+    background-color: red;
+    border: 2px slid black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+
+.hundred{
+    width: 265px;
+    background-color: aqua;
+}
+
+.fifty{
+    width: 125px;
+    background-color: blue;
+}
+
+.t5{
+    width: 75px;
+    background-color: bisque;
+}
+
+@media (max-width: 1615px) {
+   .sidebar{
+    position: absolute;
+    transform: translate(-443px, 0);
+   } 
+  }
